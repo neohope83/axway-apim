@@ -13,7 +13,7 @@ pipeline {
             git 'https://github.com/cwiechmann/sample-api-project.git'
 
             // Run Maven 
-            sh "mvn clean exec:java"
+            sh "apim.sh api import -c ./config.json"
          }
       }
    }
