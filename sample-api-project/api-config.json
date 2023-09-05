@@ -1,10 +1,12 @@
 {
-    "name":"Petstore API",
-    "path":"/api/v1/petstore",
-    "state":"published",
-    "version":"1.0.2",
-    "organization":"API Development",
-    "apiDefinition": "https://gist.githubusercontent.com/danielflower/5c5ae8a46a0a49aee508690c19b33ada/raw/b06ff4d9764b5800424f6a21a40158c35277ee65/petstore.json",
-    "image":"swagger-icon.png"
- }
- 
+    "name": "FHIR API",
+    "path": "/fhir/api/v1",
+    "state": "unpublished",
+    "retirementDate": "01.09.2050",
+    "summary": "The summary, which will appear in overview screens",
+    "version": "1.0.0",
+    "apiDefinition": "https://raw.githubusercontent.com/neohope83/axway-apim/main/FHIR.json",
+    "organization": "API Development",
+    "vhost": "api.apim-apac-demo.com/",
+    "backendBasepath": "https://fhir.xyz.com:8665/api/v1"
+}
