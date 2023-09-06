@@ -8,5 +8,5 @@
     "apiDefinition": "https://raw.githubusercontent.com/neohope83/axway-apim/main/FHIR.json",
     "organization": "API Development",
     "vhost": "api.apim-apac-demo.com/",
-    "backendBasepath": "https://fhir.xyz.com:8665/api/v1"
+    "backendBasepath": "http://fhir.xyz.com:8665/api/v1"
 }
