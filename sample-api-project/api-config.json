@@ -5,7 +5,7 @@
     "retirementDate": "01.09.2050",
     "summary": "The summary, which will appear in overview screens",
     "version": "1.0.0",
-    "apiDefinition": "https://raw.githubusercontent.com/neohope83/axway-apim/main/FHIR.json",
+    "apiDefinition": "./FHIR.json",
     "organization": "API Development",
     "vhost": "api.apim-apac-demo.com/",
     "backendBasepath": "http://fhir.xyz.com:8665/api/v1"
