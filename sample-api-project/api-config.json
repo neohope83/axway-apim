@@ -1,7 +1,7 @@
 {
     "name": "FHIR API",
     "path": "/fhir/api/v1",
-    "state": "unpublished",
+    "state": "published",
     "retirementDate": "01.09.2050",
     "summary": "The summary, which will appear in overview screens",
     "version": "1.0.0",
