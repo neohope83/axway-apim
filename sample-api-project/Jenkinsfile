@@ -10,7 +10,7 @@ pipeline {
             git 'https://github.com/neohope83/axway-apim.git'
 
             // Run API-cli 
-            sh "export PATH=$PATH:/root/apim-cli-1.14.2/scripts"
+            sh "export PATH=$PATH:/opt/apim-cli/scripts/"
             sh "apim.sh api import -c ./sample-api-project/config.json"
          }
       }
