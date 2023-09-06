@@ -6,8 +6,6 @@ pipeline {
    stages {
       stage('Build') {
          steps {
-            // Get the repository from GitHub
-            git 'https://github.com/neohope83/axway-apim.git'
 
             // Run API-cli 
            
