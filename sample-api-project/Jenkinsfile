@@ -9,7 +9,8 @@ pipeline {
             // Get the repository from GitHub
             git 'https://github.com/neohope83/axway-apim.git'
 
-            // Run Maven 
+            // Run API-cli 
+            sh "export PATH=$PATH:/root/apim-cli-1.14.2/scripts"
             sh "apim.sh api import -c ./sample-api-project/config.json"
          }
       }
