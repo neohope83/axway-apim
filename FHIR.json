@@ -8,7 +8,7 @@
     "paths": {
         "/{type}/{id}/_tags": {
             "get": {
-                "description": "Get a list of tags used for the nominated resource. This duplicates the HTTP header entries\n",
+                "description": "Get a1111 list of tags used for the nominated resource. This duplicates the HTTP header entries\n",
                 "operationId": "GET /{type}/{id}/_tags",
                 "produces": [
                     "application/json+fhir",
