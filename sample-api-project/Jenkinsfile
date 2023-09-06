@@ -11,7 +11,7 @@ pipeline {
 
             // Run API-cli 
            
-            sh "/opt/apim-cli/scripts/apim.sh api import -c /sample-api-project/api-config.json"
+            sh "/opt/apim-cli/scripts/apim.sh api import -c ./api-config.json"
          }
       }
    }
